@@ -25,7 +25,7 @@ header {
 
 .nav li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #d7d1d1;
     font-weight: 500;
 }
 
@@ -34,15 +34,12 @@ header {
     text-align: center;
     background-color: hwb(180 7% 92%);
     color: rgb(236, 228, 228);
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
-#first {
-    color: green;
-}
-
-.second {
-    color: orangered;
-}
 
 .element {
     float: left;
@@ -70,3 +67,9 @@ header {
     padding: 16px; /*I just added this*/
 }
 
+body {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(165, 161, 161), rgb(90, 87, 87), rgb(79, 76, 76));
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient()
+}

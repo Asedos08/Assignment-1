@@ -39,3 +39,10 @@ header {
     color: white;
     padding: 16px; /*I just added this*/
 }
+
+body {
+    background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(165, 161, 161), rgb(90, 87, 87), rgb(79, 76, 76));
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient()
+}

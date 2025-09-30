@@ -46,3 +46,13 @@ body {
     margin: 0;
     background: linear-gradient()
 }
+
+#customfooter {
+    text-align: center;
+    background-color: hwb(180 7% 92%);
+    color: rgb(236, 228, 228);
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+}

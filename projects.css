@@ -1,9 +1,9 @@
 header {
     display: flex;
-    justify-content: space-between; /* logo on left, nav on right */
-    align-items: center;           /* vertically center */
+    justify-content: space-between;
+    align-items: center; 
     padding: 10px 20px;
-    background: #1f1d1d;           /* optional */
+    background: #1f1d1d;
 }
 
 .logo {
@@ -29,13 +29,12 @@ header {
     font-weight: 500;
 }
 
-
-.project-item {
-    width: 360px;
-    background-color: rgb(142, 36, 103);
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 16px;
-    color: white;
-    padding: 16px; /*I just added this*/
+#customfooter {
+    text-align: center;
+    background-color: hwb(180 7% 92%);
+    color: rgb(236, 228, 228);
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
 }

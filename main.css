@@ -38,6 +38,7 @@ header {
     position: absolute;
     left: 0;
     right: 0;
+    scroll-padding: 50px;
 }
 
 
@@ -76,4 +77,5 @@ body {
 main {
     text-align: left;
     max-width: 40%;
+    padding: 10px;
 }

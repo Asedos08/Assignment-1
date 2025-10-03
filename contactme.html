@@ -24,8 +24,35 @@
     </section>
             <section id="contact">
             <h2>Contact Me</h2>
-            <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
-            <p>LinkedIn: <a href="#">Your LinkedIn</a></p>
+            <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <span class="error-message" id="nameError"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type-required="email" id="email" name="email" required>
+                    <span class="error-message" id="emailError"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+                
+                <div class="form-group">
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" rows="10" required></textarea>
+                    <span class="error-message" id="commentsError"></span>
+                </div>
+                
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+
+            <div id="successMessage" class="success-message" style="display: none;">
+                <p>Thank you for your message! I'll get back to you soon.</p>
+            </div>
         </section>
 
         <!-- Footer -->

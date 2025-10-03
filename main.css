@@ -1,9 +1,10 @@
 header {
     display: flex;
-    justify-content: space-between; /* logo on left, nav on right */
-    align-items: center;           /* vertically center */
+    justify-content: space-between; 
+    align-items: center; 
     padding: 10px 20px;
-    background: #1f1d1d;           /* optional */
+    background: #1f1d1d;
+    width: 100%;
 }
 
 .logo {
@@ -58,24 +59,24 @@ header {
     background-color: aqua;
 }
 
-.project-item {
-    width: 360px;
-    background-color: orangered;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 16px;
-    color: white;
-    padding: 16px; /*I just added this*/
-}
-
 body {
     background: linear-gradient(to right, rgb(255, 255, 255), rgb(165, 161, 161), rgb(90, 87, 87), rgb(79, 76, 76));
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
+    display: absolute;
 }
 
 main {
-    text-align: left;
+    text-align: justify;
     max-width: 40%;
+    margin: 0 auto;
     padding: 10px;
+    overflow: hidden;
+    flex: 1;
+}
+
+.video-container {
+    max-width: 100%;
+    height: auto;
+    align-content: center;
 }

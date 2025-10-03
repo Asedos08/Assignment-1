@@ -37,14 +37,14 @@ header {
     margin-right: 20px;
     margin-bottom: 16px;
     color: white;
-    padding: 16px; /*I just added this*/
+    padding: 16px;
 }
 
 body {
     background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(165, 161, 161), rgb(90, 87, 87), rgb(79, 76, 76));
     height: 100vh;
     margin: 0;
-    background: linear-gradient()
+    background: linear-gradient();
 }
 
 #customfooter {
@@ -106,12 +106,6 @@ body {
     min-height: 160px;
 }
 
-.error-message {
-    color: #e74c3c;
-    font-size: 0.9rem;
-    margin-top: 5px;
-    display: block;
-}
 
 .submit-btn {
     background: #1a1a1b;

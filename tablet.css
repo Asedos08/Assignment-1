@@ -1,0 +1,5 @@
+/*Different viewport for tablet*/
+main {
+    padding: 25px;
+    max-width: 1000px;
+}

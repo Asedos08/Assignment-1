@@ -1,0 +1,6 @@
+/*Different viewport for mobile*/
+header {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px 10px;
+}

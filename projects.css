@@ -1,3 +1,4 @@
+/*Reused styles from main.css*/
 header {
     display: flex;
     justify-content: space-between;
@@ -29,6 +30,10 @@ header {
     font-weight: 500;
 }
 
+.element {
+    float: left;
+    margin-right: 20px;
+}
 
 #customfooter {
     text-align: center;

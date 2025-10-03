@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alamjeet's Portfolio</title>
-    <link rel="stylesheet" href="main.css"> <!-- Linked CSS file -->
+    <!-- Link to the main css file and other viewports-->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mobile.css" media="(max-width: 480px)">
+    <link rel="stylesheet" href="tablet.css" media="(max-width: 768px)">
+    <link rel="stylesheet" href="laptop.css" media="(max-width: 1024px)">
 </head>
 <body>
-    <!-- Header / Navigation -->
+    <!-- Block of code that includes my image and the buttons linking to other html and css files-->
     <header class="header">
         <div class="logo">
             <img src="Myself.jpeg" alt="Myself" width="75" height="75" class="roundimage">
@@ -22,12 +26,13 @@
         </nav>
     </header>
     <main>
-        <!-- About Section -->
+
+        <!-- Main Content of the Home Page with the introduction and video as well the footer-->
         <section id="About-Me">
-            <h1>Who I Am</h1>
-            <p class="first">My passion for technology has been the driving force behind my academic and personal endeavors, and it is this that brought me to specialize in cyber security. I am fascinated by the advanced systems upon which our modern world runs on, from the complex network infrastructures to the code that guards our information. </p>
-            <p class="second">In addition to my love of technology, there is also a great love of automobiles and motorbikes.  I love the engineering specifications under the hood, the historical origins of the most legendary vehicles, and the dedication that goes into getting them quicker and stronger. Whether it is analyzing the engine management system of a latest superbike or the aerodynamics of a classic car, I see the same principles of complex systems and problem-solving that I admire in technology.</p>
-            <p class="third">The modern car is essentially an on-the-road array of computers, and being aware of its cybersecurity is just as important as being aware of its horsepower. All these passions in technology, automobiles, and cycling are not avocations but integral to what I am. They shape the way I see the world and propel me to build a career that enables me to protect the advanced digital systems that increasingly make everything, including the automobiles I love.</p>
+            <h1>Who Am I</h1>
+            <p class="first">My passion for technology has been the reason behind my academic and personal interest and it is this that brought me to specialize in cyber security. I am amazed by the advanced systems, from the complex network infrastructures to the security systems implemented. </p>
+            <p class="second">In addition to my love of technology, I also love cars and motorbikes.  I love what's under the hood, the historical of these vehicles, and the dedication that goes into getting them quicker and faster. Whether it is modifying the engine or the aerodynamics of a vehicle, I see the same principles of complex systems and problem-solving that I admire in technology.</p>
+            <p class="third">The modern car is essentially an on-the-road array of computers, and being aware of its cybersecurity is just as important as being aware of its specs. All these passions in technology, and automobiles are not just something but part of who I am. They shape who I am as a person, my deep love for cars, bikes and computers that helps me know what I want for my future.</p>
         </section>
         <div class="video-container">
             <video width="320" height="240" controls>
@@ -35,12 +40,9 @@
             </video>
         </div>
     </main>
-    
-</body>
-<body1>
     <!-- Footer -->
     <footer id="customfooter">
         <p>Copyright &copy; 2025 {Alamjeet}</p>
     </footer>
-</body1>
+</body>
 </html>

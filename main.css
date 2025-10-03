@@ -1,21 +1,25 @@
+/* Main CSS file for the portfolio website */
+/* Header Style */
 header {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between; /*Puts the logo on the left and the navigation on the right*/
     align-items: center; 
     padding: 10px 20px;
     background: #1f1d1d;
-    width: 100%;
 }
 
+/* Logo Style */
 .logo {
     font-weight: bold;
     font-size: 20px;
 }
 
+/* Makes the image round */
 .roundimage {
     border-radius: 50%;
 }
 
+/* Navigation Menu Style */
 .nav ul {
     list-style: none;
     margin: 0;
@@ -24,22 +28,22 @@ header {
     gap: 20px;
 }
 
+/* Navigation Links Style */
 .nav li a {
     text-decoration: none;
     color: #d7d1d1;
     font-weight: 500;
 }
 
-
+/* Footer Style */
 #customfooter {
     text-align: center;
     background-color: hwb(180 7% 92%);
     color: rgb(236, 228, 228);
     bottom: 0;
-    position: absolute;
+    position: absolute; /* Makes the footer stick to the bottom of the page */
     left: 0;
     right: 0;
-    scroll-padding: 50px;
 }
 
 
@@ -54,18 +58,15 @@ header {
     clear: both;
 }
 
-.skill {
-    width: 360px;
-    background-color: aqua;
-}
-
+/* Body and Main Content Style */
 body {
     background: linear-gradient(to right, rgb(255, 255, 255), rgb(165, 161, 161), rgb(90, 87, 87), rgb(79, 76, 76));
     min-height: 100vh;
     margin: 0;
-    display: absolute;
+    display: relative;
 }
 
+/* Main Content Area */
 main {
     text-align: justify;
     max-width: 40%;
@@ -79,4 +80,16 @@ main {
     max-width: 100%;
     height: auto;
     align-content: center;
+}
+
+/* Ensures footer is always at the bottom since it kept having space at the bottom when 
+minimizing the browser, so I used media query for it*/
+@media all {
+    body {
+        position: relative;
+        padding-bottom: 60px;
+    }
+    #customfooter {
+        height: 60px;
+    }
 }

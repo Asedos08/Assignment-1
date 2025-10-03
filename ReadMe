@@ -1,0 +1,10 @@
+Code Source: Lab Codes
+Code Modifications: https://www.w3schools.com
+
+Different Viewport:
+I used 1200px for Laptops, 1000px for Tablets and 786px for Mobile as there are the common
+resolutions for such devices.
+
+I used a linear-gradient to right for the home page and a linear-gradient to bottom right on the contact me page.
+
+I used a simple white to dark grey color scheme for a simple sleep view of the page.

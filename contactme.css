@@ -1,9 +1,11 @@
+/* Styles for the contact me page */
+/* Reused styles from main.css with some modifications */
 header {
     display: flex;
-    justify-content: space-between; /* logo on left, nav on right */
-    align-items: center;           /* vertically center */
+    justify-content: space-between;
+    align-items: center;
     padding: 10px 20px;
-    background: #1f1d1d;           /* optional */
+    background: #1f1d1d;
 }
 
 .logo {
@@ -29,22 +31,15 @@ header {
     font-weight: 500;
 }
 
-
-.project-item {
-    width: 360px;
-    background-color: rgb(142, 36, 103);
+.element {
     float: left;
     margin-right: 20px;
-    margin-bottom: 16px;
-    color: white;
-    padding: 16px;
 }
 
 body {
     background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(165, 161, 161), rgb(90, 87, 87), rgb(79, 76, 76));
     height: 100vh;
     margin: 0;
-    background: linear-gradient();
 }
 
 #customfooter {
@@ -58,19 +53,14 @@ body {
 }
 
 
-.main-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px;
-}
-
+/* Contact Form Styles */
 #contact {
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
 }
-
+/*Centers the text Contact Me with styling on it*/
 #contact h2 {
     color: #2c3e50;
     margin-bottom: 20px;
@@ -78,22 +68,7 @@ body {
     text-align: center;
 }
 
-#contact > p {
-    text-align: center;
-    margin-bottom: 30px;
-    color: #666;
-    font-size: 1.1rem;
-}
-
-.contact-form {
-    max-width: 700px;
-    margin: 0 auto 40px;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
+/* Formats  the content so that it is not cramped in the page */
 .form-group label {
     display: block;
     margin-bottom: 8px;
@@ -101,12 +76,7 @@ body {
     color: #2c3e50;
 }
 
-.form-group textarea {
-    resize: vertical;
-    min-height: 160px;
-}
-
-
+/*Styles the button for submission*/
 .submit-btn {
     background: #1a1a1b;
     color: white;
@@ -119,6 +89,19 @@ body {
     width: 100%;
 }
 
+/*When hovering over the button, it changes color*/
 .submit-btn:hover {
     background: #2980b9;
+}
+
+/* Ensures footer is always at the bottom since it kept having space at the bottom when 
+minimizing the browser, so I used media query for it*/
+@media all {
+    body {
+        position: relative;
+        padding-bottom: 60px;
+    }
+    #customfooter {
+        height: 60px;
+    }
 }

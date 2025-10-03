@@ -1,0 +1,5 @@
+/*Different viewport for laptop*/
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+}

@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
+    <!-- Link to the contactme css file and other viewports-->
     <link rel="stylesheet" href="contactme.css">
+    <link rel="stylesheet" href="mobile.css" media="(max-width: 480px)">
+    <link rel="stylesheet" href="tablet.css" media="(max-width: 768px)">
+    <link rel="stylesheet" href="laptop.css" media="(max-width: 1024px)">
 </head>
 <body>
+    <!-- Block of code that includes my image and the buttons linking to other html and css files-->
     <header class="header">
         <div class="logo">
             <img src="Myself.jpeg" alt="Myself" width="75" height="75" class="roundimage">
@@ -21,40 +26,36 @@
         </nav>
     </header>
 
-    </section>
-            <section id="contact">
-            <h2>Contact Me</h2>
+
+    <!-- Block of code that asks for an input with required characteristics-->
+    <section id="contact">
+        <h2>Contact Me</h2>
             <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    <span class="error-message" id="nameError"></span>
-                </div>
-                
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    <span class="error-message" id="emailError"></span>
-                </div>
-                
-                <div class="form-group">
-                    <label for="subject">Subject:</label>
-                    <input type="text" id="subject" name="subject">
-                </div>
-                
-                <div class="form-group">
-                    <label for="comments">Comments:</label>
-                    <textarea id="comments" name="comments" rows="10" required></textarea>
-                    <span class="error-message" id="commentsError"></span>
-                </div>
-                
-                <button type="submit" class="submit-btn">Send Message</button>
-            </form>
-
-            <div id="successMessage" class="success-message" style="display: none;">
-                <p>Thank you for your message! I'll get back to you soon.</p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <span class="error-message" id="nameError"></span>
             </div>
-        </section>
-
+                
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message" id="emailError"></span>
+            </div>
+                
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+            </div>
+                
+            <div class="form-group">
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="10" required></textarea>
+                <span class="error-message" id="commentsError"></span>
+            </div>
+                
+            <button type="submit" class="submit-btn">Send Message</button>
+            <!--Removed the succesful meassage since it needs a javascript file to work which I haven't learned yet-->
+    </section>
         <!-- Footer -->
     <footer id="customfooter">
         <p>Copyright &copy; 2025 {Alamjeet}</p>
